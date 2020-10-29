@@ -2,23 +2,23 @@
 
 ## Overview:
 24p atx has:
-4 x 3.3v
-4 x 5v
-2 x 12V1
-1 x -12V
-1 x -5V
-8 x GND/COM
-1 x 5V standby (always on)
-1 x PS on
-1 x PWR OK
+- 4 x 3.3v
+- 4 x 5v
+- 2 x 12V1
+- 1 x -12V
+- 1 x -5V
+- 8 x GND/COM
+- 1 x 5V standby (always on)
+- 1 x PS on
+- 1 x PWR OK
 
 Each channel: MAX 6A
 
 ## Initial spec from Stig-Rune:
 - 24p ATX molex IN
 
-###Eksponere pin som aktiverer PSU
-  - Vil du også ha en knapp på kortet?
+### Eksponere pin som aktiverer PSU
+- Vil du også ha en knapp på kortet?
 
 ### Eksponere pin som gir 5v når PSU er stabil
 - Hva slags connector
@@ -80,6 +80,7 @@ Mosfet control
 Other
 - Minimum current requirement on 5V for startup? "From what i read an old powersupply which has more ampeeres on 
   the 5v side needs at least 1A of minimum current.... so i will prolly need 10ohm 10W dummy load"
+- Expose as separate connector to connect power resistor if needed??
 
 PCB track width
 - Calculator: https://www.4pcb.com/trace-width-calculator.html

@@ -18,25 +18,25 @@ Each channel: MAX 6A
 - 24p ATX molex IN
 
 ### Eksponere pin som aktiverer PSU
-- Vil du også ha en knapp på kortet?
+- Vil du også ha en knapp på kortet? <- nei, men om denne eksponeres som en 2p header så kan jeg putte en jumper der initielt, eller lodde på en av de kontaktene vi har på skuret
 
 ### Eksponere pin som gir 5v når PSU er stabil
-- Hva slags connector
+- Hva slags connector <- tenkte vanlig 2p header, så kan jeg enten bruke pins eller en 2p kontakt fra skuret
 - Auto-start av Mosfets via jumper, see channel.
 
 ### Eksponere 5v standby
-- Hva slags connector?
+- Hva slags connector? <- igjen tenkte jeg å bruke vanlig pin-headers
 
 ### Eksponere 4x standard fan headere (12v + pwm + rpm), hvor pwm og rpm pins er eksponert et sted slik at jeg kan styre pwm og lese rpm med rpi eller arduino
-- 12V fra en av kanalene, 8 I/O-pinner? 
-- Bruke 10p IDC connector med GND og 5V i tillegg?
+- 12V fra en av kanalene, 8 I/O-pinner?  :+1:
+- Bruke 10p IDC connector med GND og 5V i tillegg? <- høres ikke dumt ut :)
 
 ### Eksponere 4x USB-kontakter, 
 - gjerne med 5A sikringer og noe som sørger for god strømlevering. 
 - Kanskje også kontrollere disse via mosfets og eksponere pins for å styre dem, på en måte som lar meg sette på jumper for å enable kontaktene permanent.
 
 ### Eksponere 12v og 5v som hull til XT30 og pin-headere
-- Max amp for pin header - flere pins pr. connector for samme volt?
+- Max amp for pin header - flere pins pr. connector for samme volt? <- XT30 takler opp til 30A, var denne jeg tenkte for 12v. tenkte pin headere for 5v som mest sannsynlig blir typ arduinoer osv, så lite strøm.
 - Både V+ og GND
 
 
@@ -59,7 +59,7 @@ Each channel: MAX 6A
 	- OR use SPI with port expander chip to reduce the number of wires needed.
 - 16p has room for 12 channels, gnd, 5v always on, ps on and pwr ok.
 - May combine with 8-10p for fan control.
-	- make pin-compatible with Raspberry?
+	- make pin-compatible with Raspberry? <- smart! jeg trenger ikke det tror jeg, men ser ikke noe grunn til å la vær fordet
 	- May or may not use full 40p connector.
 
 ### Fan control

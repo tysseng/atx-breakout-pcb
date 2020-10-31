@@ -16,9 +16,12 @@ Each channel: MAX 6A
 
 ## Initial spec from Stig-Rune:
 - 24p ATX molex IN
+- ATX motherboard power connector (Molex Mini-fit Jr. 39-28-1203,[7] former 5566-20A or 39-28-1243,[8] former 5566-24A)
 
 ### Eksponere pin som aktiverer PSU
-- Vil du også ha en knapp på kortet? <- nei, men om denne eksponeres som en 2p header så kan jeg putte en jumper der initielt, eller lodde på en av de kontaktene vi har på skuret
+- Vil du også ha en knapp på kortet? 
+  <- nei, men om denne eksponeres som en 2p header så kan jeg putte en jumper der initielt, eller lodde på en av de kontaktene vi har på skuret
+  -- Tenker jeg lager plass nok til en knapp likevel jeg, hvis det er plass :-D
 
 ### Eksponere pin som gir 5v når PSU er stabil
 - Hva slags connector <- tenkte vanlig 2p header, så kan jeg enten bruke pins eller en 2p kontakt fra skuret
@@ -85,3 +88,10 @@ Other
 PCB track width
 - Calculator: https://www.4pcb.com/trace-width-calculator.html
 - 5A: 109 MIL w 1 oz copper, 55MIL w 2 oz ($20 extra at dirtypcbs)
+
+USB
+- Stacked connectors?
+- All on the same side
+
+FUSES
+- miniature automotive fuses or resettable pcb-mounted fuses?

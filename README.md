@@ -78,7 +78,8 @@ Molex contact
 - The P1 uses Molex Housing Mini-Fit Jr. P/N# 39-01-2240 style, motherboard header is Molex 44206-0007
 
 Mosfet control
-- https://bildr.org/2012/03/rfp30n06le-arduino/
+- Negative side: https://bildr.org/2012/03/rfp30n06le-arduino/
+- Positive side, Vcc > 5v: https://www.gammon.com.au/motors
 
 Other
 - Minimum current requirement on 5V for startup? "From what i read an old powersupply which has more ampeeres on 
@@ -95,3 +96,7 @@ USB
 
 FUSES
 - miniature automotive fuses or resettable pcb-mounted fuses?
+- https://www.edn.com/protecting-against-reverse-polarity-methods-examined-part-1/
+
+Power on-led
+Power good-led

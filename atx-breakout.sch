@@ -20774,10 +20774,10 @@ Updated by Yingchun, Shan 2020-01-14&lt;br&gt;
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="220R"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E5-10.5" package3d_urn="urn:adsk.eagle:package:23372/2" value="1000uF"/>
 <part name="KK6" library="heatsink" library_urn="urn:adsk.eagle:library:236" deviceset="SK104-PAD" device="" package3d_urn="urn:adsk.eagle:package:14201/1"/>
-<part name="J3" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-04" device="27-2041" package3d_urn="urn:adsk.eagle:package:8078649/1" value="Molex KK 47053-1000"/>
-<part name="J4" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-04" device="27-2041" package3d_urn="urn:adsk.eagle:package:8078649/1" value="Molex KK 47053-1000"/>
-<part name="J5" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-04" device="27-2041" package3d_urn="urn:adsk.eagle:package:8078649/1" value="Molex KK 47053-1000"/>
-<part name="J6" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-04" device="27-2041" package3d_urn="urn:adsk.eagle:package:8078649/1" value="Molex KK 47053-1000"/>
+<part name="FAN1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-04" device="27-2041" package3d_urn="urn:adsk.eagle:package:8078649/1" value="Molex KK 47053-1000"/>
+<part name="FAN2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-04" device="27-2041" package3d_urn="urn:adsk.eagle:package:8078649/1" value="Molex KK 47053-1000"/>
+<part name="FAN3" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-04" device="27-2041" package3d_urn="urn:adsk.eagle:package:8078649/1" value="Molex KK 47053-1000"/>
+<part name="FAN4" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-04" device="27-2041" package3d_urn="urn:adsk.eagle:package:8078649/1" value="Molex KK 47053-1000"/>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="X17" library="joakim" deviceset="CONN-IDC-10P" device="S" package3d_urn="urn:adsk.eagle:package:5571/1"/>
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -20888,6 +20888,10 @@ Updated by Yingchun, Shan 2020-01-14&lt;br&gt;
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="SUPPLY19" library="joakim" deviceset="+12V/2" device=""/>
+<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-030X075" package3d_urn="urn:adsk.eagle:package:23640/1"/>
+<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-030X075" package3d_urn="urn:adsk.eagle:package:23640/1"/>
+<part name="LOAD" library="dp_devices.v6" deviceset="CON_TERMINAL_BLOCK_02" device="-5MM"/>
+<part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21263,56 +21267,56 @@ Ground plane/return paths! thickness?</text>
 <attribute name="NAME" x="33.655" y="-118.745" size="1.778" layer="95"/>
 <attribute name="VALUE" x="33.655" y="-121.285" size="1.778" layer="96"/>
 </instance>
-<instance part="J3" gate="-1" x="294.64" y="-30.48" smashed="yes">
+<instance part="FAN1" gate="-1" x="294.64" y="-30.48" smashed="yes">
 <attribute name="NAME" x="297.18" y="-31.242" size="1.524" layer="95"/>
 <attribute name="VALUE" x="293.878" y="-29.083" size="1.778" layer="96"/>
 </instance>
-<instance part="J3" gate="-2" x="294.64" y="-35.56" smashed="yes">
+<instance part="FAN1" gate="-2" x="294.64" y="-35.56" smashed="yes">
 <attribute name="NAME" x="297.18" y="-36.322" size="1.524" layer="95"/>
 </instance>
-<instance part="J3" gate="-3" x="294.64" y="-40.64" smashed="yes">
+<instance part="FAN1" gate="-3" x="294.64" y="-40.64" smashed="yes">
 <attribute name="NAME" x="297.18" y="-41.402" size="1.524" layer="95"/>
 </instance>
-<instance part="J3" gate="-4" x="294.64" y="-45.72" smashed="yes">
+<instance part="FAN1" gate="-4" x="294.64" y="-45.72" smashed="yes">
 <attribute name="NAME" x="297.18" y="-46.482" size="1.524" layer="95"/>
 </instance>
-<instance part="J4" gate="-1" x="294.64" y="-55.88" smashed="yes">
+<instance part="FAN2" gate="-1" x="294.64" y="-55.88" smashed="yes">
 <attribute name="NAME" x="297.18" y="-56.642" size="1.524" layer="95"/>
 <attribute name="VALUE" x="293.878" y="-54.483" size="1.778" layer="96"/>
 </instance>
-<instance part="J4" gate="-2" x="294.64" y="-60.96" smashed="yes">
+<instance part="FAN2" gate="-2" x="294.64" y="-60.96" smashed="yes">
 <attribute name="NAME" x="297.18" y="-61.722" size="1.524" layer="95"/>
 </instance>
-<instance part="J4" gate="-3" x="294.64" y="-66.04" smashed="yes">
+<instance part="FAN2" gate="-3" x="294.64" y="-66.04" smashed="yes">
 <attribute name="NAME" x="297.18" y="-66.802" size="1.524" layer="95"/>
 </instance>
-<instance part="J4" gate="-4" x="294.64" y="-71.12" smashed="yes">
+<instance part="FAN2" gate="-4" x="294.64" y="-71.12" smashed="yes">
 <attribute name="NAME" x="297.18" y="-71.882" size="1.524" layer="95"/>
 </instance>
-<instance part="J5" gate="-1" x="294.64" y="-81.28" smashed="yes">
+<instance part="FAN3" gate="-1" x="294.64" y="-81.28" smashed="yes">
 <attribute name="NAME" x="297.18" y="-82.042" size="1.524" layer="95"/>
 <attribute name="VALUE" x="293.878" y="-79.883" size="1.778" layer="96"/>
 </instance>
-<instance part="J5" gate="-2" x="294.64" y="-86.36" smashed="yes">
+<instance part="FAN3" gate="-2" x="294.64" y="-86.36" smashed="yes">
 <attribute name="NAME" x="297.18" y="-87.122" size="1.524" layer="95"/>
 </instance>
-<instance part="J5" gate="-3" x="294.64" y="-91.44" smashed="yes">
+<instance part="FAN3" gate="-3" x="294.64" y="-91.44" smashed="yes">
 <attribute name="NAME" x="297.18" y="-92.202" size="1.524" layer="95"/>
 </instance>
-<instance part="J5" gate="-4" x="294.64" y="-96.52" smashed="yes">
+<instance part="FAN3" gate="-4" x="294.64" y="-96.52" smashed="yes">
 <attribute name="NAME" x="297.18" y="-97.282" size="1.524" layer="95"/>
 </instance>
-<instance part="J6" gate="-1" x="294.64" y="-106.68" smashed="yes">
+<instance part="FAN4" gate="-1" x="294.64" y="-106.68" smashed="yes">
 <attribute name="NAME" x="297.18" y="-107.442" size="1.524" layer="95"/>
 <attribute name="VALUE" x="293.878" y="-105.283" size="1.778" layer="96"/>
 </instance>
-<instance part="J6" gate="-2" x="294.64" y="-111.76" smashed="yes">
+<instance part="FAN4" gate="-2" x="294.64" y="-111.76" smashed="yes">
 <attribute name="NAME" x="297.18" y="-112.522" size="1.524" layer="95"/>
 </instance>
-<instance part="J6" gate="-3" x="294.64" y="-116.84" smashed="yes">
+<instance part="FAN4" gate="-3" x="294.64" y="-116.84" smashed="yes">
 <attribute name="NAME" x="297.18" y="-117.602" size="1.524" layer="95"/>
 </instance>
-<instance part="J6" gate="-4" x="294.64" y="-121.92" smashed="yes">
+<instance part="FAN4" gate="-4" x="294.64" y="-121.92" smashed="yes">
 <attribute name="NAME" x="297.18" y="-122.682" size="1.524" layer="95"/>
 </instance>
 <instance part="GND37" gate="1" x="284.48" y="-134.62" smashed="yes">
@@ -21770,6 +21774,20 @@ Ground plane/return paths! thickness?</text>
 <instance part="SUPPLY19" gate="G$1" x="279.4" y="-22.86" smashed="yes">
 <attribute name="VALUE" x="276.225" y="-19.685" size="1.778" layer="96"/>
 </instance>
+<instance part="C14" gate="G$1" x="53.34" y="5.08" smashed="yes">
+<attribute name="NAME" x="54.864" y="5.461" size="1.778" layer="95"/>
+<attribute name="VALUE" x="54.864" y="0.381" size="1.778" layer="96"/>
+</instance>
+<instance part="C15" gate="G$1" x="53.34" y="35.56" smashed="yes">
+<attribute name="NAME" x="54.864" y="35.941" size="1.778" layer="95"/>
+<attribute name="VALUE" x="54.864" y="30.861" size="1.778" layer="96"/>
+</instance>
+<instance part="LOAD" gate="CON" x="228.6" y="-101.6" smashed="yes">
+<attribute name="NAME" x="227.33" y="-97.79" size="1.778" layer="95"/>
+</instance>
+<instance part="GND17" gate="1" x="213.36" y="-106.68" smashed="yes">
+<attribute name="VALUE" x="210.82" y="-109.22" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -21878,21 +21896,25 @@ Ground plane/return paths! thickness?</text>
 <segment>
 <pinref part="C1" gate="G$1" pin="-"/>
 <pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="C15" gate="G$1" pin="2"/>
+<wire x1="53.34" y1="30.48" x2="53.34" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="27.94" x2="43.18" y2="27.94" width="0.1524" layer="91"/>
+<junction x="43.18" y="27.94"/>
 </segment>
 <segment>
-<pinref part="J3" gate="-1" pin="S"/>
+<pinref part="FAN1" gate="-1" pin="S"/>
 <wire x1="292.1" y1="-30.48" x2="284.48" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="-30.48" x2="284.48" y2="-55.88" width="0.1524" layer="91"/>
-<pinref part="J4" gate="-1" pin="S"/>
+<pinref part="FAN2" gate="-1" pin="S"/>
 <wire x1="284.48" y1="-55.88" x2="284.48" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="-81.28" x2="284.48" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="-106.68" x2="284.48" y2="-132.08" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="-55.88" x2="284.48" y2="-55.88" width="0.1524" layer="91"/>
 <junction x="284.48" y="-55.88"/>
-<pinref part="J5" gate="-1" pin="S"/>
+<pinref part="FAN3" gate="-1" pin="S"/>
 <wire x1="292.1" y1="-81.28" x2="284.48" y2="-81.28" width="0.1524" layer="91"/>
 <junction x="284.48" y="-81.28"/>
-<pinref part="J6" gate="-1" pin="S"/>
+<pinref part="FAN4" gate="-1" pin="S"/>
 <wire x1="292.1" y1="-106.68" x2="284.48" y2="-106.68" width="0.1524" layer="91"/>
 <junction x="284.48" y="-106.68"/>
 <pinref part="GND37" gate="1" pin="GND"/>
@@ -21932,6 +21954,11 @@ Ground plane/return paths! thickness?</text>
 <segment>
 <pinref part="R23" gate="G$1" pin="2"/>
 <pinref part="GND59" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="LOAD" gate="CON" pin="2"/>
+<wire x1="228.6" y1="-104.14" x2="213.36" y2="-104.14" width="0.1524" layer="91"/>
+<pinref part="GND17" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="+5V/1" class="0">
@@ -22052,7 +22079,8 @@ Ground plane/return paths! thickness?</text>
 <wire x1="38.1" y1="38.1" x2="43.18" y2="38.1" width="0.1524" layer="91"/>
 <junction x="76.2" y="38.1"/>
 <pinref part="C1" gate="G$1" pin="+"/>
-<wire x1="43.18" y1="38.1" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="38.1" x2="53.34" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="38.1" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="35.56" x2="43.18" y2="38.1" width="0.1524" layer="91"/>
 <junction x="43.18" y="38.1"/>
 <pinref part="F8" gate="G$1" pin="2"/>
@@ -22062,6 +22090,8 @@ Ground plane/return paths! thickness?</text>
 <wire x1="104.14" y1="30.48" x2="101.6" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="30.48" x2="101.6" y2="38.1" width="0.1524" layer="91"/>
 <junction x="101.6" y="38.1"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<junction x="53.34" y="38.1"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -22108,7 +22138,8 @@ Ground plane/return paths! thickness?</text>
 <wire x1="38.1" y1="7.62" x2="43.18" y2="7.62" width="0.1524" layer="91"/>
 <junction x="76.2" y="7.62"/>
 <pinref part="C2" gate="G$1" pin="+"/>
-<wire x1="43.18" y1="7.62" x2="76.2" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="7.62" x2="53.34" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="7.62" x2="76.2" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="5.08" x2="43.18" y2="7.62" width="0.1524" layer="91"/>
 <junction x="43.18" y="7.62"/>
 <pinref part="F1" gate="G$1" pin="2"/>
@@ -22118,6 +22149,8 @@ Ground plane/return paths! thickness?</text>
 <wire x1="104.14" y1="0" x2="101.6" y2="0" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="0" x2="101.6" y2="7.62" width="0.1524" layer="91"/>
 <junction x="101.6" y="7.62"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<junction x="53.34" y="7.62"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -22531,17 +22564,17 @@ Ground plane/return paths! thickness?</text>
 <label x="0" y="50.8" size="1.9304" layer="95"/>
 </segment>
 <segment>
-<pinref part="J3" gate="-2" pin="S"/>
+<pinref part="FAN1" gate="-2" pin="S"/>
 <wire x1="292.1" y1="-35.56" x2="279.4" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="-35.56" x2="279.4" y2="-60.96" width="0.1524" layer="91"/>
-<pinref part="J6" gate="-2" pin="S"/>
+<pinref part="FAN4" gate="-2" pin="S"/>
 <wire x1="279.4" y1="-60.96" x2="279.4" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="-86.36" x2="279.4" y2="-111.76" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="-111.76" x2="292.1" y2="-111.76" width="0.1524" layer="91"/>
-<pinref part="J5" gate="-2" pin="S"/>
+<pinref part="FAN3" gate="-2" pin="S"/>
 <wire x1="292.1" y1="-86.36" x2="279.4" y2="-86.36" width="0.1524" layer="91"/>
 <junction x="279.4" y="-86.36"/>
-<pinref part="J4" gate="-2" pin="S"/>
+<pinref part="FAN2" gate="-2" pin="S"/>
 <wire x1="292.1" y1="-60.96" x2="279.4" y2="-60.96" width="0.1524" layer="91"/>
 <junction x="279.4" y="-60.96"/>
 <wire x1="279.4" y1="-35.56" x2="279.4" y2="-25.4" width="0.1524" layer="91"/>
@@ -22568,7 +22601,7 @@ Ground plane/return paths! thickness?</text>
 </net>
 <net name="FAN1_SENSE" class="0">
 <segment>
-<pinref part="J3" gate="-3" pin="S"/>
+<pinref part="FAN1" gate="-3" pin="S"/>
 <wire x1="292.1" y1="-40.64" x2="261.62" y2="-40.64" width="0.1524" layer="91"/>
 <label x="261.62" y="-40.64" size="1.778" layer="95"/>
 </segment>
@@ -22580,7 +22613,7 @@ Ground plane/return paths! thickness?</text>
 </net>
 <net name="FAN1_CTRL" class="0">
 <segment>
-<pinref part="J3" gate="-4" pin="S"/>
+<pinref part="FAN1" gate="-4" pin="S"/>
 <wire x1="292.1" y1="-45.72" x2="261.62" y2="-45.72" width="0.1524" layer="91"/>
 <label x="261.62" y="-45.72" size="1.778" layer="95"/>
 </segment>
@@ -22592,7 +22625,7 @@ Ground plane/return paths! thickness?</text>
 </net>
 <net name="FAN2_SENSE" class="0">
 <segment>
-<pinref part="J4" gate="-3" pin="S"/>
+<pinref part="FAN2" gate="-3" pin="S"/>
 <wire x1="292.1" y1="-66.04" x2="261.62" y2="-66.04" width="0.1524" layer="91"/>
 <label x="261.62" y="-66.04" size="1.778" layer="95"/>
 </segment>
@@ -22604,7 +22637,7 @@ Ground plane/return paths! thickness?</text>
 </net>
 <net name="FAN2_CTRL" class="0">
 <segment>
-<pinref part="J4" gate="-4" pin="S"/>
+<pinref part="FAN2" gate="-4" pin="S"/>
 <wire x1="292.1" y1="-71.12" x2="261.62" y2="-71.12" width="0.1524" layer="91"/>
 <label x="261.62" y="-71.12" size="1.778" layer="95"/>
 </segment>
@@ -22616,7 +22649,7 @@ Ground plane/return paths! thickness?</text>
 </net>
 <net name="FAN3_SENSE" class="0">
 <segment>
-<pinref part="J5" gate="-3" pin="S"/>
+<pinref part="FAN3" gate="-3" pin="S"/>
 <wire x1="292.1" y1="-91.44" x2="261.62" y2="-91.44" width="0.1524" layer="91"/>
 <label x="261.62" y="-91.44" size="1.778" layer="95"/>
 </segment>
@@ -22628,7 +22661,7 @@ Ground plane/return paths! thickness?</text>
 </net>
 <net name="FAN3_CTRL" class="0">
 <segment>
-<pinref part="J5" gate="-4" pin="S"/>
+<pinref part="FAN3" gate="-4" pin="S"/>
 <wire x1="292.1" y1="-96.52" x2="261.62" y2="-96.52" width="0.1524" layer="91"/>
 <label x="261.62" y="-96.52" size="1.778" layer="95"/>
 </segment>
@@ -22640,7 +22673,7 @@ Ground plane/return paths! thickness?</text>
 </net>
 <net name="FAN4_SENSE" class="0">
 <segment>
-<pinref part="J6" gate="-3" pin="S"/>
+<pinref part="FAN4" gate="-3" pin="S"/>
 <wire x1="292.1" y1="-116.84" x2="261.62" y2="-116.84" width="0.1524" layer="91"/>
 <label x="261.62" y="-116.84" size="1.778" layer="95"/>
 </segment>
@@ -22652,7 +22685,7 @@ Ground plane/return paths! thickness?</text>
 </net>
 <net name="FAN4_CTRL" class="0">
 <segment>
-<pinref part="J6" gate="-4" pin="S"/>
+<pinref part="FAN4" gate="-4" pin="S"/>
 <wire x1="292.1" y1="-121.92" x2="261.62" y2="-121.92" width="0.1524" layer="91"/>
 <label x="261.62" y="-121.92" size="1.778" layer="95"/>
 </segment>
@@ -22776,6 +22809,10 @@ Ground plane/return paths! thickness?</text>
 <segment>
 <pinref part="C2" gate="G$1" pin="-"/>
 <pinref part="SUPPLY20" gate="G$1" pin="GND1"/>
+<pinref part="C14" gate="G$1" pin="2"/>
+<wire x1="53.34" y1="0" x2="53.34" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="-2.54" x2="43.18" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="43.18" y="-2.54"/>
 </segment>
 <segment>
 <pinref part="T2" gate="G1" pin="E"/>
@@ -22976,6 +23013,11 @@ Ground plane/return paths! thickness?</text>
 <segment>
 <pinref part="R28" gate="G$1" pin="2"/>
 <pinref part="SUPPLY62" gate="G$1" pin="GND5"/>
+</segment>
+<segment>
+<pinref part="LOAD" gate="CON" pin="1"/>
+<wire x1="228.6" y1="-101.6" x2="213.36" y2="-101.6" width="0.1524" layer="91"/>
+<label x="213.36" y="-101.6" size="1.9304" layer="95"/>
 </segment>
 </net>
 <net name="GNDA" class="0">

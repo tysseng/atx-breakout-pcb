@@ -580,8 +580,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="5.1" y1="-1" x2="3.5" y2="-2.6" width="0.1524" layer="21"/>
 <wire x1="3.5" y1="-2.6" x2="-5.1" y2="-2.6" width="0.1524" layer="21"/>
 <wire x1="5.1" y1="1" x2="5.1" y2="-1" width="0.1524" layer="21"/>
-<pad name="1" x="2.5" y="0" drill="1.8" shape="octagon" rot="R90"/>
-<pad name="2" x="-2.5" y="0" drill="1.8" shape="octagon" rot="R90"/>
+<pad name="1" x="2.5" y="0" drill="1.9" shape="octagon" rot="R90"/>
+<pad name="2" x="-2.5" y="0" drill="1.9" shape="octagon" rot="R90"/>
 <text x="-3.81" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.81" y="-4.191" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <wire x1="-5.1" y1="-2.6" x2="-5.1" y2="2.6" width="0.1524" layer="21"/>
@@ -20720,7 +20720,7 @@ Updated by Yingchun, Shan 2020-01-14&lt;br&gt;
 <part name="LED1" library="joakim" deviceset="LED_J" device="3MM"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="560R"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SW2" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="SW_DIP-8" device="" package3d_urn="urn:adsk.eagle:package:26659/2"/>
+<part name="POWER" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="SW_DIP-8" device="" package3d_urn="urn:adsk.eagle:package:26659/2"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E7.5-16" package3d_urn="urn:adsk.eagle:package:23382/2" value="2200uF"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="KK1" library="heatsink" library_urn="urn:adsk.eagle:library:236" deviceset="SK104-PAD" device="" package3d_urn="urn:adsk.eagle:package:14201/1"/>
@@ -20779,14 +20779,14 @@ Updated by Yingchun, Shan 2020-01-14&lt;br&gt;
 <part name="FAN3" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-04" device="27-2041" package3d_urn="urn:adsk.eagle:package:8078649/1" value="Molex KK 47053-1000"/>
 <part name="FAN4" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-04" device="27-2041" package3d_urn="urn:adsk.eagle:package:8078649/1" value="Molex KK 47053-1000"/>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="X17" library="joakim" deviceset="CONN-IDC-10P" device="S" package3d_urn="urn:adsk.eagle:package:5571/1"/>
+<part name="FAN_CTRL" library="joakim" deviceset="CONN-IDC-10P" device="S" package3d_urn="urn:adsk.eagle:package:5571/1"/>
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E7.5-16" package3d_urn="urn:adsk.eagle:package:23382/2" value="2200uF"/>
 <part name="GND39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="PWR_ON" library="joakim" deviceset="MA02-1J" device="C"/>
 <part name="5V_STB" library="joakim" deviceset="MA02-1J" device="C"/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="X18" library="joakim" deviceset="CONN-IDC-10P" device="S" package3d_urn="urn:adsk.eagle:package:5571/1"/>
+<part name="CTRL" library="joakim" deviceset="CONN-IDC-10P" device="S" package3d_urn="urn:adsk.eagle:package:5571/1"/>
 <part name="X20" library="joakim" deviceset="XT30-J" device=""/>
 <part name="X21" library="joakim" deviceset="MA02-1J" device="C"/>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="1k"/>
@@ -20822,13 +20822,13 @@ Updated by Yingchun, Shan 2020-01-14&lt;br&gt;
 <part name="J7" library="Wurth_Connectors_WR-USB" library_urn="urn:adsk.eagle:library:16513831" deviceset="61400826021" device="" package3d_urn="urn:adsk.eagle:package:16513910/2" value=" 61400826021 "/>
 <part name="J11" library="Wurth_Connectors_WR-USB" library_urn="urn:adsk.eagle:library:16513831" deviceset="61400826021" device="" package3d_urn="urn:adsk.eagle:package:16513910/2" value=" 61400826021 "/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="1k"/>
-<part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="1k"/>
-<part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="1k"/>
-<part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="1k"/>
-<part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="1k"/>
-<part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="1k"/>
-<part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="1k"/>
+<part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="10k"/>
+<part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="10k"/>
+<part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="10k"/>
+<part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="10k"/>
+<part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="10k"/>
+<part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="10k"/>
+<part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="10k"/>
 <part name="GND59" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="supply2" deviceset="GND1" device=""/>
 <part name="SUPPLY14" library="supply2" deviceset="GND1" device=""/>
@@ -20899,10 +20899,14 @@ Updated by Yingchun, Shan 2020-01-14&lt;br&gt;
 <text x="-40.64" y="76.2" size="1.778" layer="91">TODO:
 check pin dia, XT30 (currently 1.8 drill)
 check selected MOSFETs
-check polarities, XT30
-use stacked USB
-Check cap value for 5 and 3.3v
-Ground plane/return paths! thickness?</text>
+
+VURDERE IRLZ34N eller irf5305 ISTEDENFOR. Samme footprint, mye lavere Rds(on)
+
+See https://www.gammon.com.au/motors, forklarer både krets 
+og temp-calc</text>
+<text x="-40.64" y="104.14" size="1.778" layer="91">https://electronics.stackexchange.com/questions/272718/mosfet-how-to-determine-if-a-heatsink-is-required
+
+https://forum.arduino.cc/index.php?topic=109361.0</text>
 </plain>
 <instances>
 <instance part="ATX" gate="-1" x="292.1" y="55.88" smashed="yes">
@@ -21057,7 +21061,7 @@ Ground plane/return paths! thickness?</text>
 <instance part="GND5" gate="1" x="60.96" y="25.4" smashed="yes">
 <attribute name="VALUE" x="58.42" y="22.86" size="1.778" layer="96"/>
 </instance>
-<instance part="SW2" gate="A" x="-86.36" y="-104.14" smashed="yes" rot="R180">
+<instance part="POWER" gate="A" x="-86.36" y="-104.14" smashed="yes" rot="R180">
 <attribute name="NAME" x="-81.28" y="-114.935" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-81.28" y="-88.9" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -21322,35 +21326,35 @@ Ground plane/return paths! thickness?</text>
 <instance part="GND37" gate="1" x="284.48" y="-134.62" smashed="yes">
 <attribute name="VALUE" x="281.94" y="-137.16" size="1.778" layer="96"/>
 </instance>
-<instance part="X17" gate="-1" x="223.52" y="-63.5" smashed="yes">
+<instance part="FAN_CTRL" gate="-1" x="223.52" y="-63.5" smashed="yes">
 <attribute name="NAME" x="222.25" y="-62.611" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="219.71" y="-60.833" size="1.778" layer="96"/>
 </instance>
-<instance part="X17" gate="-2" x="223.52" y="-66.04" smashed="yes">
+<instance part="FAN_CTRL" gate="-2" x="223.52" y="-66.04" smashed="yes">
 <attribute name="NAME" x="222.25" y="-65.151" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X17" gate="-3" x="223.52" y="-68.58" smashed="yes">
+<instance part="FAN_CTRL" gate="-3" x="223.52" y="-68.58" smashed="yes">
 <attribute name="NAME" x="222.25" y="-67.691" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X17" gate="-4" x="223.52" y="-71.12" smashed="yes">
+<instance part="FAN_CTRL" gate="-4" x="223.52" y="-71.12" smashed="yes">
 <attribute name="NAME" x="222.25" y="-70.231" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X17" gate="-5" x="223.52" y="-73.66" smashed="yes">
+<instance part="FAN_CTRL" gate="-5" x="223.52" y="-73.66" smashed="yes">
 <attribute name="NAME" x="222.25" y="-72.771" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X17" gate="-6" x="223.52" y="-76.2" smashed="yes">
+<instance part="FAN_CTRL" gate="-6" x="223.52" y="-76.2" smashed="yes">
 <attribute name="NAME" x="222.25" y="-75.311" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X17" gate="-7" x="223.52" y="-78.74" smashed="yes">
+<instance part="FAN_CTRL" gate="-7" x="223.52" y="-78.74" smashed="yes">
 <attribute name="NAME" x="222.25" y="-77.851" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X17" gate="-8" x="223.52" y="-81.28" smashed="yes">
+<instance part="FAN_CTRL" gate="-8" x="223.52" y="-81.28" smashed="yes">
 <attribute name="NAME" x="222.25" y="-80.391" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X17" gate="-9" x="223.52" y="-83.82" smashed="yes">
+<instance part="FAN_CTRL" gate="-9" x="223.52" y="-83.82" smashed="yes">
 <attribute name="NAME" x="222.25" y="-82.931" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X17" gate="-10" x="223.52" y="-86.36" smashed="yes">
+<instance part="FAN_CTRL" gate="-10" x="223.52" y="-86.36" smashed="yes">
 <attribute name="NAME" x="222.25" y="-85.471" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="GND38" gate="1" x="228.6" y="-88.9" smashed="yes">
@@ -21374,35 +21378,35 @@ Ground plane/return paths! thickness?</text>
 <instance part="GND40" gate="1" x="210.82" y="-5.08" smashed="yes">
 <attribute name="VALUE" x="208.28" y="-7.62" size="1.778" layer="96"/>
 </instance>
-<instance part="X18" gate="-1" x="-83.82" y="-58.42" smashed="yes">
+<instance part="CTRL" gate="-1" x="-83.82" y="-58.42" smashed="yes">
 <attribute name="NAME" x="-85.09" y="-57.531" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-87.63" y="-55.753" size="1.778" layer="96"/>
 </instance>
-<instance part="X18" gate="-2" x="-83.82" y="-60.96" smashed="yes">
+<instance part="CTRL" gate="-2" x="-83.82" y="-60.96" smashed="yes">
 <attribute name="NAME" x="-85.09" y="-60.071" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X18" gate="-3" x="-83.82" y="-63.5" smashed="yes">
+<instance part="CTRL" gate="-3" x="-83.82" y="-63.5" smashed="yes">
 <attribute name="NAME" x="-85.09" y="-62.611" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X18" gate="-4" x="-83.82" y="-66.04" smashed="yes">
+<instance part="CTRL" gate="-4" x="-83.82" y="-66.04" smashed="yes">
 <attribute name="NAME" x="-85.09" y="-65.151" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X18" gate="-5" x="-83.82" y="-68.58" smashed="yes">
+<instance part="CTRL" gate="-5" x="-83.82" y="-68.58" smashed="yes">
 <attribute name="NAME" x="-85.09" y="-67.691" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X18" gate="-6" x="-83.82" y="-71.12" smashed="yes">
+<instance part="CTRL" gate="-6" x="-83.82" y="-71.12" smashed="yes">
 <attribute name="NAME" x="-85.09" y="-70.231" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X18" gate="-7" x="-83.82" y="-73.66" smashed="yes">
+<instance part="CTRL" gate="-7" x="-83.82" y="-73.66" smashed="yes">
 <attribute name="NAME" x="-85.09" y="-72.771" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X18" gate="-8" x="-83.82" y="-76.2" smashed="yes">
+<instance part="CTRL" gate="-8" x="-83.82" y="-76.2" smashed="yes">
 <attribute name="NAME" x="-85.09" y="-75.311" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X18" gate="-9" x="-83.82" y="-78.74" smashed="yes">
+<instance part="CTRL" gate="-9" x="-83.82" y="-78.74" smashed="yes">
 <attribute name="NAME" x="-85.09" y="-77.851" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X18" gate="-10" x="-83.82" y="-81.28" smashed="yes">
+<instance part="CTRL" gate="-10" x="-83.82" y="-81.28" smashed="yes">
 <attribute name="NAME" x="-85.09" y="-80.391" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="X20" gate="G$1" x="111.76" y="-175.26" smashed="yes" rot="MR0">
@@ -21799,7 +21803,7 @@ Ground plane/return paths! thickness?</text>
 <label x="274.32" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X18" gate="-8" pin="KL"/>
+<pinref part="CTRL" gate="-8" pin="KL"/>
 <wire x1="-78.74" y1="-76.2" x2="-60.96" y2="-76.2" width="0.1524" layer="91"/>
 <label x="-78.74" y="-76.2" size="1.9304" layer="95"/>
 </segment>
@@ -21828,14 +21832,14 @@ Ground plane/return paths! thickness?</text>
 <wire x1="-73.66" y1="-93.98" x2="-60.96" y2="-93.98" width="0.1524" layer="91"/>
 <junction x="-73.66" y="-93.98"/>
 <label x="-76.2" y="-93.98" size="1.778" layer="95"/>
-<pinref part="SW2" gate="A" pin="9"/>
-<pinref part="SW2" gate="A" pin="10"/>
-<pinref part="SW2" gate="A" pin="11"/>
-<pinref part="SW2" gate="A" pin="12"/>
-<pinref part="SW2" gate="A" pin="13"/>
-<pinref part="SW2" gate="A" pin="14"/>
-<pinref part="SW2" gate="A" pin="15"/>
-<pinref part="SW2" gate="A" pin="16"/>
+<pinref part="POWER" gate="A" pin="9"/>
+<pinref part="POWER" gate="A" pin="10"/>
+<pinref part="POWER" gate="A" pin="11"/>
+<pinref part="POWER" gate="A" pin="12"/>
+<pinref part="POWER" gate="A" pin="13"/>
+<pinref part="POWER" gate="A" pin="14"/>
+<pinref part="POWER" gate="A" pin="15"/>
+<pinref part="POWER" gate="A" pin="16"/>
 </segment>
 </net>
 <net name="+5V_STB" class="0">
@@ -21856,7 +21860,7 @@ Ground plane/return paths! thickness?</text>
 <wire x1="220.98" y1="0" x2="200.66" y2="0" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X18" gate="-9" pin="KL"/>
+<pinref part="CTRL" gate="-9" pin="KL"/>
 <wire x1="-78.74" y1="-78.74" x2="-60.96" y2="-78.74" width="0.1524" layer="91"/>
 <label x="-78.74" y="-78.74" size="1.9304" layer="95"/>
 </segment>
@@ -21920,7 +21924,7 @@ Ground plane/return paths! thickness?</text>
 <pinref part="GND37" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X17" gate="-10" pin="KL"/>
+<pinref part="FAN_CTRL" gate="-10" pin="KL"/>
 <pinref part="GND38" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -21942,7 +21946,7 @@ Ground plane/return paths! thickness?</text>
 <wire x1="121.92" y1="27.94" x2="116.84" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X18" gate="-10" pin="KL"/>
+<pinref part="CTRL" gate="-10" pin="KL"/>
 <wire x1="-78.74" y1="-81.28" x2="-63.5" y2="-81.28" width="0.1524" layer="91"/>
 <pinref part="GND48" gate="1" pin="GND"/>
 </segment>
@@ -22038,14 +22042,14 @@ Ground plane/return paths! thickness?</text>
 <wire x1="-15.24" y1="35.56" x2="-40.64" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="-40.64" y1="35.56" x2="-58.42" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="35.56" x2="-58.42" y2="-58.42" width="0.1524" layer="91"/>
-<pinref part="X18" gate="-1" pin="KL"/>
+<pinref part="CTRL" gate="-1" pin="KL"/>
 <wire x1="-58.42" y1="-58.42" x2="-78.74" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="R23" gate="G$1" pin="1"/>
 <junction x="-40.64" y="35.56"/>
 </segment>
 <segment>
 <wire x1="-93.98" y1="-93.98" x2="-116.84" y2="-93.98" width="0.1524" layer="91"/>
-<pinref part="SW2" gate="A" pin="1"/>
+<pinref part="POWER" gate="A" pin="1"/>
 <label x="-116.84" y="-93.98" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -22174,13 +22178,13 @@ Ground plane/return paths! thickness?</text>
 <wire x1="-15.24" y1="5.08" x2="-40.64" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="-40.64" y1="5.08" x2="-55.88" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="-55.88" y1="5.08" x2="-55.88" y2="-60.96" width="0.1524" layer="91"/>
-<pinref part="X18" gate="-2" pin="KL"/>
+<pinref part="CTRL" gate="-2" pin="KL"/>
 <wire x1="-55.88" y1="-60.96" x2="-78.74" y2="-60.96" width="0.1524" layer="91"/>
 <pinref part="R24" gate="G$1" pin="1"/>
 <junction x="-40.64" y="5.08"/>
 </segment>
 <segment>
-<pinref part="SW2" gate="A" pin="2"/>
+<pinref part="POWER" gate="A" pin="2"/>
 <wire x1="-93.98" y1="-96.52" x2="-116.84" y2="-96.52" width="0.1524" layer="91"/>
 <label x="-116.84" y="-96.52" size="1.778" layer="95"/>
 </segment>
@@ -22255,13 +22259,13 @@ Ground plane/return paths! thickness?</text>
 <wire x1="-15.24" y1="-30.48" x2="-40.64" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="-40.64" y1="-30.48" x2="-53.34" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="-30.48" x2="-53.34" y2="-63.5" width="0.1524" layer="91"/>
-<pinref part="X18" gate="-3" pin="KL"/>
+<pinref part="CTRL" gate="-3" pin="KL"/>
 <wire x1="-53.34" y1="-63.5" x2="-78.74" y2="-63.5" width="0.1524" layer="91"/>
 <pinref part="R25" gate="G$1" pin="1"/>
 <junction x="-40.64" y="-30.48"/>
 </segment>
 <segment>
-<pinref part="SW2" gate="A" pin="3"/>
+<pinref part="POWER" gate="A" pin="3"/>
 <wire x1="-93.98" y1="-99.06" x2="-116.84" y2="-99.06" width="0.1524" layer="91"/>
 <label x="-116.84" y="-99.06" size="1.778" layer="95"/>
 </segment>
@@ -22334,13 +22338,13 @@ Ground plane/return paths! thickness?</text>
 <wire x1="-15.24" y1="-66.04" x2="-40.64" y2="-66.04" width="0.1524" layer="91"/>
 <label x="-35.56" y="-66.04" size="1.778" layer="95"/>
 <pinref part="R10" gate="G$1" pin="2"/>
-<pinref part="X18" gate="-4" pin="KL"/>
+<pinref part="CTRL" gate="-4" pin="KL"/>
 <pinref part="R26" gate="G$1" pin="1"/>
 <wire x1="-40.64" y1="-66.04" x2="-78.74" y2="-66.04" width="0.1524" layer="91"/>
 <junction x="-40.64" y="-66.04"/>
 </segment>
 <segment>
-<pinref part="SW2" gate="A" pin="4"/>
+<pinref part="POWER" gate="A" pin="4"/>
 <wire x1="-93.98" y1="-101.6" x2="-116.84" y2="-101.6" width="0.1524" layer="91"/>
 <label x="-116.84" y="-101.6" size="1.778" layer="95"/>
 </segment>
@@ -22415,13 +22419,13 @@ Ground plane/return paths! thickness?</text>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="-40.64" y1="-99.06" x2="-53.34" y2="-99.06" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="-99.06" x2="-53.34" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="X18" gate="-5" pin="KL"/>
+<pinref part="CTRL" gate="-5" pin="KL"/>
 <wire x1="-53.34" y1="-68.58" x2="-78.74" y2="-68.58" width="0.1524" layer="91"/>
 <pinref part="R27" gate="G$1" pin="1"/>
 <junction x="-40.64" y="-99.06"/>
 </segment>
 <segment>
-<pinref part="SW2" gate="A" pin="5"/>
+<pinref part="POWER" gate="A" pin="5"/>
 <wire x1="-93.98" y1="-104.14" x2="-116.84" y2="-104.14" width="0.1524" layer="91"/>
 <label x="-116.84" y="-104.14" size="1.778" layer="95"/>
 </segment>
@@ -22476,7 +22480,7 @@ Ground plane/return paths! thickness?</text>
 <label x="106.68" y="-132.08" size="1.9304" layer="95"/>
 </segment>
 <segment>
-<pinref part="X17" gate="-9" pin="KL"/>
+<pinref part="FAN_CTRL" gate="-9" pin="KL"/>
 <wire x1="228.6" y1="-83.82" x2="246.38" y2="-83.82" width="0.1524" layer="91"/>
 <label x="228.6" y="-83.82" size="1.778" layer="95"/>
 </segment>
@@ -22502,13 +22506,13 @@ Ground plane/return paths! thickness?</text>
 <wire x1="-15.24" y1="-134.62" x2="-40.64" y2="-134.62" width="0.1524" layer="91"/>
 <wire x1="-40.64" y1="-134.62" x2="-55.88" y2="-134.62" width="0.1524" layer="91"/>
 <wire x1="-55.88" y1="-134.62" x2="-55.88" y2="-71.12" width="0.1524" layer="91"/>
-<pinref part="X18" gate="-6" pin="KL"/>
+<pinref part="CTRL" gate="-6" pin="KL"/>
 <wire x1="-55.88" y1="-71.12" x2="-78.74" y2="-71.12" width="0.1524" layer="91"/>
 <pinref part="R28" gate="G$1" pin="1"/>
 <junction x="-40.64" y="-134.62"/>
 </segment>
 <segment>
-<pinref part="SW2" gate="A" pin="6"/>
+<pinref part="POWER" gate="A" pin="6"/>
 <wire x1="-93.98" y1="-106.68" x2="-116.84" y2="-106.68" width="0.1524" layer="91"/>
 <label x="-116.84" y="-106.68" size="1.778" layer="95"/>
 </segment>
@@ -22606,7 +22610,7 @@ Ground plane/return paths! thickness?</text>
 <label x="261.62" y="-40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X17" gate="-4" pin="KL"/>
+<pinref part="FAN_CTRL" gate="-4" pin="KL"/>
 <wire x1="241.3" y1="-71.12" x2="228.6" y2="-71.12" width="0.1524" layer="91"/>
 <label x="228.6" y="-71.12" size="1.778" layer="95"/>
 </segment>
@@ -22618,7 +22622,7 @@ Ground plane/return paths! thickness?</text>
 <label x="261.62" y="-45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X17" gate="-2" pin="KL"/>
+<pinref part="FAN_CTRL" gate="-2" pin="KL"/>
 <wire x1="241.3" y1="-66.04" x2="228.6" y2="-66.04" width="0.1524" layer="91"/>
 <label x="228.6" y="-66.04" size="1.778" layer="95"/>
 </segment>
@@ -22630,7 +22634,7 @@ Ground plane/return paths! thickness?</text>
 <label x="261.62" y="-66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X17" gate="-3" pin="KL"/>
+<pinref part="FAN_CTRL" gate="-3" pin="KL"/>
 <wire x1="241.3" y1="-68.58" x2="228.6" y2="-68.58" width="0.1524" layer="91"/>
 <label x="228.6" y="-68.58" size="1.778" layer="95"/>
 </segment>
@@ -22642,7 +22646,7 @@ Ground plane/return paths! thickness?</text>
 <label x="261.62" y="-71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X17" gate="-1" pin="KL"/>
+<pinref part="FAN_CTRL" gate="-1" pin="KL"/>
 <wire x1="241.3" y1="-63.5" x2="228.6" y2="-63.5" width="0.1524" layer="91"/>
 <label x="228.6" y="-63.5" size="1.778" layer="95"/>
 </segment>
@@ -22654,7 +22658,7 @@ Ground plane/return paths! thickness?</text>
 <label x="261.62" y="-91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X17" gate="-8" pin="KL"/>
+<pinref part="FAN_CTRL" gate="-8" pin="KL"/>
 <wire x1="241.3" y1="-81.28" x2="228.6" y2="-81.28" width="0.1524" layer="91"/>
 <label x="228.6" y="-81.28" size="1.778" layer="95"/>
 </segment>
@@ -22666,7 +22670,7 @@ Ground plane/return paths! thickness?</text>
 <label x="261.62" y="-96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X17" gate="-6" pin="KL"/>
+<pinref part="FAN_CTRL" gate="-6" pin="KL"/>
 <wire x1="241.3" y1="-76.2" x2="228.6" y2="-76.2" width="0.1524" layer="91"/>
 <label x="228.6" y="-76.2" size="1.778" layer="95"/>
 </segment>
@@ -22678,7 +22682,7 @@ Ground plane/return paths! thickness?</text>
 <label x="261.62" y="-116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X17" gate="-7" pin="KL"/>
+<pinref part="FAN_CTRL" gate="-7" pin="KL"/>
 <wire x1="241.3" y1="-78.74" x2="228.6" y2="-78.74" width="0.1524" layer="91"/>
 <label x="228.6" y="-78.74" size="1.778" layer="95"/>
 </segment>
@@ -22690,7 +22694,7 @@ Ground plane/return paths! thickness?</text>
 <label x="261.62" y="-121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X17" gate="-5" pin="KL"/>
+<pinref part="FAN_CTRL" gate="-5" pin="KL"/>
 <wire x1="241.3" y1="-73.66" x2="228.6" y2="-73.66" width="0.1524" layer="91"/>
 <label x="228.6" y="-73.66" size="1.778" layer="95"/>
 </segment>
@@ -22760,7 +22764,7 @@ Ground plane/return paths! thickness?</text>
 <label x="-35.56" y="-170.18" size="1.778" layer="95"/>
 <pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="-15.24" y1="-170.18" x2="-40.64" y2="-170.18" width="0.1524" layer="91"/>
-<pinref part="X18" gate="-7" pin="KL"/>
+<pinref part="CTRL" gate="-7" pin="KL"/>
 <wire x1="-40.64" y1="-170.18" x2="-58.42" y2="-170.18" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="-73.66" x2="-58.42" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="-73.66" x2="-58.42" y2="-170.18" width="0.1524" layer="91"/>
@@ -22768,7 +22772,7 @@ Ground plane/return paths! thickness?</text>
 <junction x="-40.64" y="-170.18"/>
 </segment>
 <segment>
-<pinref part="SW2" gate="A" pin="7"/>
+<pinref part="POWER" gate="A" pin="7"/>
 <wire x1="-93.98" y1="-109.22" x2="-116.84" y2="-109.22" width="0.1524" layer="91"/>
 <label x="-116.84" y="-109.22" size="1.778" layer="95"/>
 </segment>
